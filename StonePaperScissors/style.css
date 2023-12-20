@@ -40,7 +40,6 @@ img {
   gap: 3rem;
   margin-top: 5rem;
 }
-
 .score-board {
   display: flex;
   justify-content: center;
@@ -74,4 +73,10 @@ img {
   color: #fff;
   font-size: 1.7rem;
   border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+#reset-btn:hover{
+  background-color: #2980b9;
+  transform: translateY(-3px);
 }

@@ -8,7 +8,7 @@ const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
 const resetBtn = document.querySelector("#reset-btn");
 
-const reset = () => {
+const reset = () => {   
   userScore = 0;
   compScore = 0;
   userScorePara.innerText = userScore;
